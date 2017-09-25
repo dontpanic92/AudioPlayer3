@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\rfftw">
+      <UniqueIdentifier>{004493cb-f1e0-40c5-8ca6-80d2157093cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{2d0c8bee-5535-4869-a699-bde930059e8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CAudioPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CConsoleUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CConsoleWindowManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpectrumAnalyzer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMusicManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\config.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\executor.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_1.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_2.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_3.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_4.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_5.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_6.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_7.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_8.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_9.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_10.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_11.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_12.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_13.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_14.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_15.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_16.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_32.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_64.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fcr_128.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fftwf77.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fftwnd.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhb_2.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhb_3.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhb_4.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhb_5.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhb_6.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhb_7.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhb_8.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhb_9.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhb_10.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhb_16.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhb_32.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhf_2.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhf_3.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhf_4.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhf_5.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhf_6.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhf_7.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhf_8.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhf_9.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhf_10.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhf_16.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fhf_32.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_1.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_2.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_3.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_4.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_5.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_6.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_7.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_8.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_9.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_10.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_11.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_12.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_13.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_14.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_15.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_16.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_32.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fn_64.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_1.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_2.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_3.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_4.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_5.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_6.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_7.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_8.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_9.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_10.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_11.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_12.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_13.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_14.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_15.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_16.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_32.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\fni_64.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_1.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_2.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_3.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_4.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_5.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_6.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_7.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_8.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_9.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_10.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_11.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_12.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_13.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_14.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_15.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_16.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_32.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_64.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\frc_128.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftw_2.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftw_3.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftw_4.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftw_5.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftw_6.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftw_7.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftw_8.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftw_9.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftw_10.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftw_16.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftw_32.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftw_64.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftwi_2.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftwi_3.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftwi_4.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftwi_5.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftwi_6.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftwi_7.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftwi_8.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftwi_9.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftwi_10.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftwi_16.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftwi_32.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\ftwi_64.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\generic.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\malloc.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\planner.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\putils.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\rader.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\rconfig.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\rexec.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\rexec2.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\rfftwf77.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\rfftwnd.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\rgeneric.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\rplanner.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\timer.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\twiddle.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\wisdom.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="fftw\wisdomio.c">
+      <Filter>头文件\rfftw</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\MainForm.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAudioPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CConsoleUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMusicManger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CConsoleWindowManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpectrumAnalyzer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fftw\config.h">
+      <Filter>头文件\rfftw</Filter>
+    </ClInclude>
+    <ClInclude Include="fftw\f77_func.h">
+      <Filter>头文件\rfftw</Filter>
+    </ClInclude>
+    <ClInclude Include="fftw\fftw.h">
+      <Filter>头文件\rfftw</Filter>
+    </ClInclude>
+    <ClInclude Include="fftw\fftw-int.h">
+      <Filter>头文件\rfftw</Filter>
+    </ClInclude>
+    <ClInclude Include="fftw\rfftw.h">
+      <Filter>头文件\rfftw</Filter>
+    </ClInclude>
+    <ClInclude Include="CCriticalSection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\MainForm.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fftw\Makefile.am">
+      <Filter>头文件\rfftw</Filter>
+    </None>
+    <None Include="fftw\Makefile.in">
+      <Filter>头文件\rfftw</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AduioPlayer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
